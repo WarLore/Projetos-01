@@ -7,7 +7,7 @@
     <title>Notícias Cidade - Seu site de notícias</title>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
-<body class="home">
+<body id="tres-colunas" class="home">
     <div id="conteiner">
         <header>
             <h1 class="logo">Noticias cidade</h1>
@@ -23,8 +23,52 @@
                 </ul>
             </nav>
         </header>
-
+        <section id="conteudo">
+            <article id="primario">
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <nav class="caixa-conteudo">
+                        
+                    </nav>
+                </div>
+            </article>
+            <article id="secundario">
+                Secundario
+            </article>
+            <aside>
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <nav class="caixa-conteudo">
+                        <ul>
+                            <li><a href="">José Almeida</a></li>
+                            <li><a href="">Felipe Silva</a></li>
+                            <li><a href="">Renato Rodrigues</a></li>
+                            <li><a href="">Abelardo Silveira</a></li>
+                            <li><a href="">André Carlos</a></li>
+                            <li><a href="">Márcio Mello</a></li>
+                            <li><a href="">João Pedro</a></li>
+                            <li><a href="">Fernando Weiss</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="caixa">
+                    <h2>News</h2>
+                    <nav class="caixa-conteudo">
+                        <form>
+                            <label for="email">E-mail:</label>
+                            <input type="text" name="email" id="email" placeholder="E-mail">
+                        </form>
+                        <div>
+                            <input type="submit" value="Cadastrar" id="submit">
+                        </div>
+                    </nav>
+                </div>
+            </aside>
+        </section>
     </div>
+    <footer style="clear:both;">
+        <span>&copy; Copyright 2000-2018 Notícias Cidade</span>
+    </footer>
     
 </body>
 </html>
