@@ -93,14 +93,12 @@ body.fotos #navegacao a#fotos{
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
 }
 
 #secundario{
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background: green;
 }
 
 aside{
@@ -167,6 +165,65 @@ input#submit{
     background-color: #b10333;
     border: 2px solid #870529;
     padding: 5px;
+}
+/*Formatação imagen*/
+img{
+        border: 2px solid #dfdfdf;
+}
+
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/*Formatação de cabeçahos*/
+
+h3{
+    text-transform: uppercase;
+    display: block;
+    font-size: 0.8em;
+    padding: 5px;
+    margin-top: 8px;
+}
+
+.destaque h3{
+    background-color: #b10333;
+    color: #fff;
+}
+
+.entrevista h3{
+    background: #de003e;
+}
+/*Formatação lista*/
+
+#lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+
+#lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a{
+    text-decoration: none;
+}
+
+#lista-noticias li a h3{
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#lista-noticias li a p{
+    font-size: 0.8em;
+}
+
+#lista-noticias li:hover{
+    background: #eee;
+    cursor: pointer;
 }
 /*Formatação do Rodape*/
 
